@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>*</pattern>
+    <pattern>nm n*</pattern>
     <template>I have no answer for that.</template>
   </category>
+
+<category><pattern>.n n</pattern><template><srai>NM N*</srai></template></category>
+
+<category><pattern>m.</pattern><template><srai>.N N</srai></template></category>
+
+
+
+<category>
+    <pattern>Click node to edit pattern</pattern>
+    <template>Click node to edit template</template>
+</category>
+
+<category><pattern>.m</pattern><template><srai>CLICK NODE TO EDIT PATTERN</srai></template></category>
+
+<category>
+    <pattern>Click node to edit pattern</pattern>
+    <template>Click node to edit template</template>
+</category>
 </aiml>
